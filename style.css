@@ -13,7 +13,7 @@
     font-weight: bold;
 }
 
-section{
+main{
     margin: 1em auto;
     line-height: 2em;
     max-width: 550px; 
@@ -22,7 +22,6 @@ section{
 
 body{
     background-color: var(--primary-color);
-    display: flex; 
 }
 
 h1{
@@ -87,4 +86,28 @@ table{
 
 td{
     text-align: center;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2em;
+}
+
+ul{
+    padding: 1em;
+}
+
+  
+li {
+    display: inline;
+    padding: 0.5em;
+    list-style: none;
+}
+  
+i{
+    color: black;
 }
